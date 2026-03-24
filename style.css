@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+* {
+    font-family: Faculty Glyphic;
+    margin: 0; /*espaçamento em volta zerada*/
+    padding: 0; /*resetando */
+    box-sizing: border-box; /*evita que os elementos aumentem de tamanho inesperado facilitando o controle daresponsividade*/
+}
+
+/*estilizando o header*/
+.cabecalho {
+    background-color: #000000;
+    color: white;
+    padding: 1.5rem; /*poseria ser 24px*/
+    /*alinhamento dos itens*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+    /*header fixo*/
+    position: sticky; /*posicionamento do header para sobrepor os outros elementos*/
+    left: 0;
+    top: 0;
+    z-index: 999; /*eixo z - profundidade do elemento*/
+}
+
+/*logo do header*/
+.div-logo img {
+    width: 35%; /*usando o % para diminuir o tamanho*/
+}
+
+/*estilização do botão header*/
+.div-button a button {
+     width: 5rem; /*poseria ser 80px*/
+     padding: 0.5rem; /*8px - preenchimento*/
+     background-color: #1b1b1b;
+     border: none; /*remoção dasbordas*/
+     font-weight: 700; /*espessura da fonte do botão*/
+     color: white;
+     border-radius: 10px; /*arredondamento da borda do botão*/
+}
+
+.section-01 {
+    padding: 11rem; /*preenchimento interno da section*/
+    background-image: url(imagem/imagem\ de\ fundo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem; /*poderiamos usar 32px*/
+    flex-wrap: wrap; /*significa que as divs poderão quebrar de linha, caso necessário*/
+}
+
+.div01{
+    background-color: #363636; /*cor de fundo da caixa*/ 
+    color: #6b6b6b; /*cor do texto*/
+    text-align: center; /*alinhamento centralizado do texto*/
+    font-size: 2rem; /*tamanho da letra dentro da caixa*/
+    padding: 1rem; /*preenchimento da caixa*/
+    width: 25%; /*largura da caixa*/
+    height: 20rem /*alturada caixa utilizando o REM*/;
+    min-height: 299px;
+}
+
+.div02 {
+    
+}
