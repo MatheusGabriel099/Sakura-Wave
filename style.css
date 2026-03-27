@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
 * {
-    font-family: Faculty Glyphic;
-    margin: 0; /*espaçamento em volta zerada*/
-    padding: 0; /*resetando */
-    box-sizing: border-box; /*evita que os elementos aumentem de tamanho inesperado facilitando o controle 
+    font-family: Delius;
+    margin: 0;
+    /*espaçamento em volta zerada*/
+    padding: 0;
+    /*resetando */
+    box-sizing: border-box;
+    /*evita que os elementos aumentem de tamanho inesperado facilitando o controle 
     da responsividade*/
     list-style: none;
 }
@@ -12,7 +16,8 @@
 .cabecalho {
     background-color: #ffa3c4;
     color: white;
-    padding: 1.5rem; /*poderia ser 24px*/
+    padding: 1.5rem;
+    /*poderia ser 24px*/
     /*alinhamento dos itens*/
     display: flex;
     align-items: center;
@@ -20,30 +25,39 @@
     flex-direction: row;
 
     /*header fixo*/
-    position: sticky; /*posicionamento do header para sobrepor os outros elementos*/
+    position: sticky;
+    /*posicionamento do header para sobrepor os outros elementos*/
     left: 0;
     top: 0;
-    z-index: 999; /*eixo z - profundidade do elemento*/
+    z-index: 999;
+    /*eixo z - profundidade do elemento*/
 }
 
 /*logo do header*/
 .div-logo img {
-    width: 20%; /*usando o % para diminuir o tamanho*/
+    width: 20%;
+    /*usando o % para diminuir o tamanho*/
 }
 
 /*estilização do botão header*/
 .div-button a button {
-     width: 5rem; /*poseria ser 80px*/
-     padding: 0.5rem; /*8px - preenchimento*/
-     background-color: #272727;
-     border: none; /*remoção dasbordas*/
-     font-weight: 700; /*espessura da fonte do botão*/
-     color: white;
-     border-radius: 10px; /*arredondamento da borda do botão*/
+    width: 5rem;
+    /*poseria ser 80px*/
+    padding: 0.5rem;
+    /*8px - preenchimento*/
+    background-color: black;
+    border: none;
+    /*remoção dasbordas*/
+    font-weight: 700;
+    /*espessura da fonte do botão*/
+    color: white;
+    border-radius: 10px;
+    /*arredondamento da borda do botão*/
 }
 
 .section-01 {
-    padding: 11rem; /*preenchimento interno da section*/
+    padding: 11rem;
+    /*preenchimento interno da section*/
     background-image: url(imagem/monte-fuji-background.jpg);
     background-position: center;
     background-size: cover;
@@ -52,25 +66,42 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem; /*poderiamos usar 32px*/
-    flex-wrap: wrap; /*significa que as divs poderão quebrar de linha, caso necessário*/
-    
+    gap: 2rem;
+    /*poderiamos usar 32px*/
+    flex-wrap: wrap;
+    /*significa que as divs poderão quebrar de linha, caso necessário*/
 }
 
-.div01{
-    background-color: #ffbad3; /*cor de fundo da caixa*/ 
-    color: #000000; /*cor do texto*/
-    text-align: center; /*alinhamento centralizado do texto*/
-    font-size: 1.7rem; /*tamanho da letra dentro da caixa*/
-    padding: 1rem; /*preenchimento da caixa*/
-    width: 25%; /*largura da caixa*/
-    height: 20rem;/*alturada caixa utilizando o REM*/
+.div01 {
+    background-color: #ffbad3;
+    /*cor de fundo da caixa*/
+    color: #000000;
+    /*cor do texto*/
+    text-align: center;
+    /*alinhamento centralizado do texto*/
+    font-weight: bold;
+    /*peso da fonte*/
+    font-size: 1.7rem;
+    /*tamanho da letra dentro da caixa*/
+    padding: 1rem;
+    /*preenchimento da caixa*/
+    width: 25%;
+    /*largura da caixa*/
+    height: 20rem;
+    /*alturada caixa utilizando o REM*/
     min-width: 299px;
+    /*largura minima da caixa, ela não ficará menor que 300px*/
+}
+
+.div01 p {
+    margin-top: 1rem;
 }
 
 .div02 {
-    padding: 1rem; /*preenchimento da caixa*/
-    width: 25%; /*largura da caixa*/
+    padding: 1rem;
+    /*preenchimento da caixa*/
+    width: 25%;
+    /*largura da caixa*/
     height: 15rem;
     min-height: 299px;
     background-image: url(imagem/sakura.png);
@@ -82,6 +113,8 @@
     justify-content: center;
     flex-direction: column;
     gap: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*estamos estilizando as listas*/
@@ -89,18 +122,71 @@
     text-decoration: none;
     background-color: black;
     color: white;
-    padding: 4px;
+    padding: 5px;
     font-size: 1.3rem;
     border-radius: 10px;
 }
 
 .ul-div01 li {
-    margin: 5px 5px; /*alterano os 4 lados externos dos elementos, primeiro valor (superior, inferior) e segundo
+    margin: 5px 5px;
+    /*alterano os 4 lados externos dos elementos, primeiro valor (superior, inferior) e segundo
     valor (laterais esquerdas e direita)*/
 }
+
+
 
 .fa-yen-sign, .fa-torii-gate {
     color: white;
     font-size: 1.5rem;
     margin-right: 6rem;
+}
+
+.div-img {
+    padding: 3%; /*preenchimento interno*/
+    background-image: url(imagem/textura2.png); /*caminho da imagem*/
+    background-position: center; /*posicionamento da imagem*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-02 {
+    display: flex; /*tornando lado a lado*/
+    justify-content: space-evenly; /*alinhamento horinzontal*/
+    align-items: center; /*alinhamento vertical*/
+    gap: 1.9rem; /*brecha entre as caixas*/
+    padding: 5rem; /*prenchimento interno*/
+    background-color: #ffa3c4; /*cor de fundo*/
+    flex-wrap: wrap; /*caso necessario a div poderá quebrar*/
+}
+
+/*Estilização das 3 divs section 2*/
+.caixa {
+    width: 25%; /*largura da caixa*/
+    height: 20rem; /*altura da caixa*/
+    background-color: #df85a7; /*cor de fundo*/
+    min-width: 299px; /*largura minima da div*/
+    font-size: 1.2rem; /*tamanho das letras*/
+    color: white; /*cor do texto*/
+    box-shadow: 10px 10px 20px #884760; /*sombra externa das caixas*/
+    cursor: pointer; /*ativando cursor pointer*/
+}
+
+.caixa:hover {
+    box-shadow: 12px 12px 22px #3b1c28; /*sombra externa das caixas*/
+    transition: 0.8s;
+}
+
+.section-03 {
+    display: flex; /*tornando lado a lado*/
+    justify-content: space-evenly; /*alinhamento horinzontal*/
+    align-items: center; /*alinhamento vertical*/
+    gap: 1.5rem; /*brecha entre as caixas*/
+    padding: 5rem; /*prenchimento interno*/
+    background-color: #ffa3c4; /*cor de fundo*/
+    flex-wrap: wrap; /*caso necessario a div poderá quebrar*/
+}
+
+/* chamando as classes primarias para a estilização */
+.div03, .div04 {
+    height: 15rem; /*altura dasw caixas*/
 }
