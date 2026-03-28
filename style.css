@@ -10,11 +10,12 @@
     /*evita que os elementos aumentem de tamanho inesperado facilitando o controle 
     da responsividade*/
     list-style: none;
+    text-decoration: none;
 }
 
 /*estilizando o header*/
 .cabecalho {
-    background-color: #ffa3c4;
+    background-color: #df85a7;
     color: white;
     padding: 1.5rem;
     /*poderia ser 24px*/
@@ -56,7 +57,7 @@
 }
 
 .section-01 {
-    padding: 11rem;
+    padding: 8rem;
     /*preenchimento interno da section*/
     background-image: url(imagem/monte-fuji-background.jpg);
     background-position: center;
@@ -95,6 +96,10 @@
 
 .div01 p {
     margin-top: 1rem;
+}
+
+span{
+    color: #884760;
 }
 
 .div02 {
@@ -149,11 +154,11 @@
     background-size: cover;
 }
 
-.section-02 {
+.section-02, .section-04 {
     display: flex; /*tornando lado a lado*/
-    justify-content: space-evenly; /*alinhamento horinzontal*/
+    justify-content: center; /*alinhamento horinzontal*/
     align-items: center; /*alinhamento vertical*/
-    gap: 1.9rem; /*brecha entre as caixas*/
+    gap: 2rem; /*brecha entre as caixas*/
     padding: 5rem; /*prenchimento interno*/
     background-color: #ffa3c4; /*cor de fundo*/
     flex-wrap: wrap; /*caso necessario a div poderá quebrar*/
@@ -166,9 +171,10 @@
     background-color: #df85a7; /*cor de fundo*/
     min-width: 299px; /*largura minima da div*/
     font-size: 1.2rem; /*tamanho das letras*/
-    color: white; /*cor do texto*/
+    color: black; /*cor do texto*/
     box-shadow: 10px 10px 20px #884760; /*sombra externa das caixas*/
     cursor: pointer; /*ativando cursor pointer*/
+    font-weight: 600;
 }
 
 .caixa:hover {
@@ -178,9 +184,9 @@
 
 .section-03 {
     display: flex; /*tornando lado a lado*/
-    justify-content: space-evenly; /*alinhamento horinzontal*/
+    justify-content: center; /*alinhamento horinzontal*/
     align-items: center; /*alinhamento vertical*/
-    gap: 1.5rem; /*brecha entre as caixas*/
+    gap: 2rem; /*brecha entre as caixas*/
     padding: 5rem; /*prenchimento interno*/
     background-color: #ffa3c4; /*cor de fundo*/
     flex-wrap: wrap; /*caso necessario a div poderá quebrar*/
@@ -188,5 +194,50 @@
 
 /* chamando as classes primarias para a estilização */
 .div03, .div04 {
-    height: 15rem; /*altura dasw caixas*/
+    height: 15rem; /*altura das caixas*/
+    padding: 1rem;
+    text-align: center;
+}
+/* estilização dos textos da primeira caixa */
+.content-text {
+    text-align: start; /*alinhando os textos ao inicio*/
+    margin-top: 1rem; /*espaçamento wm torno da caixa*/
+    font-weight: 600; /*peso da fonte*/
+    color: #000000;
+}
+/* acessando os icons para estilização */
+.icon-div03 i {
+    color: black; /*cor dos icons*/
+    font-size: 2.5rem; /*tamanho dos icons*/
+    margin-top: 0.7rem; /*espaçamento superior dos icon*/
+}
+
+/* inicio da formatação caixa 02 section 03 */
+.button-div04 a button {
+    padding: 0.5rem; /*prenchimento interno button*/
+    background-color: #a8406d; /*cor de fundo*/
+    color: black; /*cor dos textos*/
+    font-weight: 600; /*peso da fonte*/
+    margin: 1rem 0; /*espaçamento sup/inf */
+}
+
+.text-div04 {
+    color: black;
+    font-weight: 600;
+}
+
+.div-sec04 {
+   background-color: #df85a7;
+   color: black;
+   font-weight: 600;
+}
+
+footer {
+    background-color: #df85a7;
+    padding: 3rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
