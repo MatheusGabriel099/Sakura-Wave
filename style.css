@@ -158,6 +158,21 @@ span {
     background-size: cover;
 }
 
+.whatsapp img {
+    width: 50px;
+}
+
+.whatsapp {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+.whatsapp img:hover {
+    width: 60px;
+    transition: 0.8s;
+}
+
 .section-02,
 .section-04 {
     display: flex;
@@ -320,12 +335,23 @@ span {
 
 /* estilixando os icon */
 .social-midia i {
-    color: black;
-    /*cor do icon*/
     font-size: 2rem;
     /*32px | tamanho do icon*/
     margin: 0.5em;
     /*espaçamento em volta dos icon (4 lados)*/
+}
+
+.social-midia i:hover {
+    font-size: 2.5rem;
+    transition: 0.8s;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-twitch {
+    color: purple;
 }
 
 .line {
@@ -361,4 +387,41 @@ span {
     .content {
         flex-direction: column;
     }
+}
+
+.div-06 {
+    background-image: url(imagem/paisagem.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 101%;
+}
+
+.div-05 {
+    text-align: center;
+}
+
+.div-05 h3 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.div-05 p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.div-07 {
+    text-align: center;
+}
+
+.div-07 h3 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.div-07 p {
+    font-size: 20px;
+    font-weight: 600;
 }
