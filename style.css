@@ -15,7 +15,7 @@
 
 /*estilizando o header*/
 .cabecalho {
-    background-color: #df85a7;
+    background-color: #e06e9a;
     color: white;
     padding: 1.5rem;
     /*poderia ser 24px*/
@@ -98,7 +98,7 @@
     margin-top: 1rem;
 }
 
-span{
+span {
     color: #884760;
 }
 
@@ -140,85 +140,140 @@ span{
 
 
 
-.fa-yen-sign, .fa-torii-gate {
+.fa-yen-sign,
+.fa-torii-gate {
     color: white;
     font-size: 1.5rem;
     margin-right: 6rem;
 }
 
 .div-img {
-    padding: 3%; /*preenchimento interno*/
-    background-image: url(imagem/textura2.png); /*caminho da imagem*/
-    background-position: center; /*posicionamento da imagem*/
+    padding: 3%;
+    /*preenchimento interno*/
+    background-image: url(imagem/textura2.png);
+    /*caminho da imagem*/
+    background-position: center;
+    /*posicionamento da imagem*/
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.section-02, .section-04 {
-    display: flex; /*tornando lado a lado*/
-    justify-content: center; /*alinhamento horinzontal*/
-    align-items: center; /*alinhamento vertical*/
-    gap: 2rem; /*brecha entre as caixas*/
-    padding: 5rem; /*prenchimento interno*/
-    background-color: #ffa3c4; /*cor de fundo*/
-    flex-wrap: wrap; /*caso necessario a div poderá quebrar*/
+.section-02,
+.section-04 {
+    display: flex;
+    /*tornando lado a lado*/
+    justify-content: center;
+    /*alinhamento horinzontal*/
+    align-items: center;
+    /*alinhamento vertical*/
+    gap: 2rem;
+    /*brecha entre as caixas*/
+    padding: 5rem;
+    /*prenchimento interno*/
+    background-color: #ffa3c4;
+    /*cor de fundo*/
+    flex-wrap: wrap;
+    /*caso necessario a div poderá quebrar*/
 }
 
 /*Estilização das 3 divs section 2*/
 .caixa {
-    width: 25%; /*largura da caixa*/
-    height: 20rem; /*altura da caixa*/
-    background-color: #df85a7; /*cor de fundo*/
-    min-width: 299px; /*largura minima da div*/
-    font-size: 1.2rem; /*tamanho das letras*/
-    color: black; /*cor do texto*/
-    box-shadow: 10px 10px 20px #884760; /*sombra externa das caixas*/
-    cursor: pointer; /*ativando cursor pointer*/
+    width: 25%;
+    /*largura da caixa*/
+    height: 20rem;
+    /*altura da caixa*/
+    background-color: #df85a7;
+    /*cor de fundo*/
+    min-width: 299px;
+    /*largura minima da div*/
+    font-size: 1.2rem;
+    /*tamanho das letras*/
+    color: black;
+    /*cor do texto*/
+    box-shadow: 10px 10px 20px #884760;
+    /*sombra externa das caixas*/
+    cursor: pointer;
+    /*ativando cursor pointer*/
     font-weight: 600;
 }
 
+.caixa img {
+    width: 100%;
+    height: 50%;
+}
+
+.caixa button {
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    border: none;
+}
+
 .caixa:hover {
-    box-shadow: 12px 12px 22px #3b1c28; /*sombra externa das caixas*/
+    box-shadow: 12px 12px 22px #3b1c28;
+    /*sombra externa das caixas*/
     transition: 0.8s;
 }
 
 .section-03 {
-    display: flex; /*tornando lado a lado*/
-    justify-content: center; /*alinhamento horinzontal*/
-    align-items: center; /*alinhamento vertical*/
-    gap: 2rem; /*brecha entre as caixas*/
-    padding: 5rem; /*prenchimento interno*/
-    background-color: #ffa3c4; /*cor de fundo*/
-    flex-wrap: wrap; /*caso necessario a div poderá quebrar*/
+    display: flex;
+    /*tornando lado a lado*/
+    justify-content: center;
+    /*alinhamento horinzontal*/
+    align-items: center;
+    /*alinhamento vertical*/
+    gap: 2rem;
+    /*brecha entre as caixas*/
+    padding: 5rem;
+    /*prenchimento interno*/
+    background-color: #ffa3c4;
+    /*cor de fundo*/
+    flex-wrap: wrap;
+    /*caso necessario a div poderá quebrar*/
 }
 
 /* chamando as classes primarias para a estilização */
-.div03, .div04 {
-    height: 15rem; /*altura das caixas*/
+.div03,
+.div04 {
+    height: 15rem;
+    /*altura das caixas*/
     padding: 1rem;
     text-align: center;
 }
+
 /* estilização dos textos da primeira caixa */
 .content-text {
-    text-align: start; /*alinhando os textos ao inicio*/
-    margin-top: 1rem; /*espaçamento wm torno da caixa*/
-    font-weight: 600; /*peso da fonte*/
+    text-align: start;
+    /*alinhando os textos ao inicio*/
+    margin-top: 1rem;
+    /*espaçamento wm torno da caixa*/
+    font-weight: 600;
+    /*peso da fonte*/
     color: #000000;
 }
+
 /* acessando os icons para estilização */
 .icon-div03 i {
-    color: black; /*cor dos icons*/
-    font-size: 2.5rem; /*tamanho dos icons*/
-    margin-top: 0.7rem; /*espaçamento superior dos icon*/
+    color: black;
+    /*cor dos icons*/
+    font-size: 2.5rem;
+    /*tamanho dos icons*/
+    margin-top: 0.7rem;
+    /*espaçamento superior dos icon*/
 }
 
 /* inicio da formatação caixa 02 section 03 */
 .button-div04 a button {
-    padding: 0.5rem; /*prenchimento interno button*/
-    background-color: #a8406d; /*cor de fundo*/
-    color: black; /*cor dos textos*/
-    font-weight: 600; /*peso da fonte*/
-    margin: 1rem 0; /*espaçamento sup/inf */
+    padding: 0.5rem;
+    /*prenchimento interno button*/
+    background-color: #a8406d;
+    /*cor de fundo*/
+    color: black;
+    /*cor dos textos*/
+    font-weight: 600;
+    /*peso da fonte*/
+    margin: 1rem 0;
+    /*espaçamento sup/inf */
 }
 
 .text-div04 {
@@ -227,17 +282,83 @@ span{
 }
 
 .div-sec04 {
-   background-color: #df85a7;
-   color: black;
-   font-weight: 600;
+    background-color: #df85a7;
+    color: black;
+    font-weight: 600;
 }
 
-footer {
-    background-color: #df85a7;
-    padding: 3rem;
-    color: black;
+/* inicio da estilização do rodape */
+.rodape {
+    background-color: #e06e9a;
+    /*cor de fundo do rodape*/
+    padding: 2rem;
+    /*32px*/
+    text-align: center;
+    /*alinhando textos ao centro*/
+    font-size: 1.1rem;
+    /*definindo tamanho do text*/
+}
+
+.content {
     display: flex;
+    /*flexbox / lado a lado*/
     align-items: center;
+    /*alinhamento vertical*/
     justify-content: center;
-    flex-direction: column;
+    /*alinhamento horizontal*/
+    gap: 3rem;
+    /*espaçamento dos elementos*/
+    flex-wrap: wrap;
+    /*quabre de caixas*/
+    margin-bottom: 1.5rem;
+}
+
+/* espaçamento da div que guarda os icon */
+.social-midia {
+    padding: 1.5rem;
+}
+
+/* estilixando os icon */
+.social-midia i {
+    color: black;
+    /*cor do icon*/
+    font-size: 2rem;
+    /*32px | tamanho do icon*/
+    margin: 0.5em;
+    /*espaçamento em volta dos icon (4 lados)*/
+}
+
+.line {
+    width: 60%;
+    /*largura da linha*/
+    margin: 0.5rem auto;
+    /*espaçamento em torno da linha superior
+    e inferior (0.5em) com as laterais automaticas (navegador)*/
+
+    /* trocar a cor da linha 
+    /* background-color: black; /*cor de fundodo hr*/
+    /* border: none; /*remover as bordas por padrão*/
+    /* height: 2px; /*definir altura a linha*/
+}
+
+.div-list ul li a {
+    color: #632a43;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.div-list ul li {
+    margin-bottom: 0.5rem;
+}
+
+.div-list ul li a:hover {
+    color: #240613;
+    transition: 0.8s;
+}
+
+/* especificação das listas em colunas para mobile  */
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
 }
