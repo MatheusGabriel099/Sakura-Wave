@@ -387,6 +387,54 @@ span {
     .content {
         flex-direction: column;
     }
+
+    .produto-03 h3 {
+        font-size: 20px;
+        margin: 0.5rem;
+        margin-left: 0.7rem;
+    }
+
+    .produto-03 p {
+        margin: 0.5rem;
+        margin-left: 0.7rem;;
+    }
+
+    .produto-03 button {
+        padding: 0.3rem;
+        margin-left: 0.7rem;
+    }
+
+    .produto-01 h3 {
+        font-size: 20px;
+        margin: 0.5rem;
+        margin-left: 0.7rem;
+    }
+
+    .produto-01 p {
+        margin: 0.5rem;
+        margin-left: 0.7rem;
+    }
+
+    .produto-01 button {
+        padding: 0.3rem;
+        margin-left: 0.7rem;
+    }
+
+    .produto-02 h3 {
+        font-size: 20px;
+        margin: 0.5rem;
+        margin-left: 0.7rem;
+    }
+
+    .produto-02 p {
+        margin: 0.5rem;
+        margin-left: 0.7rem;
+    }
+
+    .produto-02 button {
+        padding: 0.3rem;
+        margin-left: 0.7rem;
+    }
 }
 
 .div-06 {
@@ -407,8 +455,9 @@ span {
 }
 
 .div-05 p {
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 600;
+    margin: 1rem;
 }
 
 .div-07 {
@@ -422,6 +471,7 @@ span {
 }
 
 .div-07 p {
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: 600;
+    margin: 1rem;
 }
