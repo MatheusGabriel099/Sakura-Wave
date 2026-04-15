@@ -6,8 +6,7 @@
 }
 
 body {
-    height: 100vh;
-    /*estamos dizendo ao body que queremos a altura completa (100%)*/
+    height: 100vh;  /*estamos dizendo ao body que queremos a altura completa (100%)*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,8 +22,7 @@ body {
     padding: 2rem;
     border-radius: 15px;
     width: 100%;
-    max-width: 400px;
-    /*define a largura minima do container em 400px*/
+    max-width: 400px; /*define a largura minima do container em 400px*/
     box-shadow: 0 10px 25px black;
 }
 
@@ -39,8 +37,7 @@ h2 {
 }
 
 .input-group label {
-    display: block;
-    /*mantendo o comportamento do elemento em bloco*/
+    display: block; /*mantendo o comportamento do elemento em bloco*/
     margin-bottom: 5px;
     color: #555;
 }
@@ -50,8 +47,7 @@ h2 {
     padding: 10px;
     border-radius: 8px;
     border: 1px solid #ccc;
-    outline: none;
-    /*remove o contorno (borda externa) do elemento*/
+    outline: none; /*remove o contorno (borda externa) do elemento*/
     transition: 0.3s;
 }
 
